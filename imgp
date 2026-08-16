@@ -602,6 +602,7 @@ def parse_args(args=None, namespace=None):
            help='overwrite source images [default: off]')
     addarg('-d', '--debug', action='store_true',
            help='enable debug logs [default: off]')
+    addarg('-v', '--version', action='version', version=_VERSION_)
     addarg('keywords', nargs='*', metavar='PATH',
            help='source file or dir [default: current dir]')
 

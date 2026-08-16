@@ -32,6 +32,7 @@ _imgp () {
         -x --res
         -d --debug
         -h --help
+        -v --version
     )
     opts_with_arg=(
         -M --minres

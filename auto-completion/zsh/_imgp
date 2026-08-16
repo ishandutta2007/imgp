@@ -30,5 +30,6 @@ args=(
     '(-x --res)'{-x,--res}'[output resolution]:HxV or % or MP'
     '(-d --debug)'{-z,--debug}'[enable debug logs]'
     '(-h --help)'{-h,--help}'[show help]'
+    '(-v --version)'{-v,--version}'[show program version]'
 )
 _arguments -S -s $args

@@ -76,7 +76,7 @@ For example, if an image has a resolution of 2048x1365 and is being resized to 1
 
 #### Dependencies
 
-`imgp` requires Python 3.8 or later.
+`imgp` requires Python 3.10 or later.
 
 To install PIL library on Ubuntu, run:
 

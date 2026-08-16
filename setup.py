@@ -4,14 +4,14 @@ import re
 import os.path
 import shutil
 import sys
+from importlib.metadata import PackageNotFoundError, distribution
 
 from setuptools import setup, find_packages
-from pkg_resources import get_distribution, DistributionNotFound
 
 def get_dist(pkgname):
     try:
-        return get_distribution(pkgname)
-    except DistributionNotFound:
+        return distribution(pkgname)
+    except PackageNotFoundError:
         return None
 
 if os.path.isfile('imgp'):
@@ -53,7 +53,7 @@ setup(
         'Environment :: Console',
         'Intended Audience :: Developers',
         'Intended Audience :: End Users/Desktop',
-        'License :: OSI Approved :: GNU General Public License v3 or later (GPL-3.0-or-later)',
+        'License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)',
         'Natural Language :: English',
         'Operating System :: OS Independent',
         'Programming Language :: Python :: 3',

@@ -1,3 +1,16 @@
+imgp v3.0
+2026-08-16
+
+- Add megapixel target functionality
+- Add an option to raise the PIL/Pillow pixel limit for trusted input files
+- Fix incorrect gamma handling during resizing
+- Add Python 3.12 support
+- Retire Python 3.8 and 3.9 support (EOL)
+- Add `-v` and `--version` options
+- Add version option completion for Bash, Fish, and Zsh
+
+-------------------------------------------------------------------------------
+
 imgp v2.9
 2023-09-10
 

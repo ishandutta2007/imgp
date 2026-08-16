@@ -140,7 +140,7 @@ Shell completion scripts for Bash, Fish and Zsh can be found in respective subdi
 
 ```
 usage: imgp [-h] [-x res] [-o deg] [-a] [-c] [-e] [-f] [-H] [-i] [-k] [-m] [-M res]
-            [-n] [-N] [-O] [-P] [-q N] [-r] [-s byte] [-w] [-d] [PATH [PATH ...]]
+            [-n] [-N] [-O] [-P] [-q N] [-r] [-s byte] [-w] [-d] [-v] [PATH ...]
 
 Resize, rotate JPEG and PNG images.
 
@@ -170,6 +170,7 @@ optional arguments:
   -s byte, --size byte  minimum size to process an image [default: 1024]
   -w, --overwrite       overwrite source images [default: off]
   -d, --debug           enable debug logs [default: off]
+  -v, --version         show program's version number and exit
 ```
 
 #### Operational notes
